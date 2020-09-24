@@ -39,9 +39,15 @@ Spring Boot API Project Seed 是一个基于Spring Boot & MyBatis的种子项目
 - Structlog4j
 - modelmapper
 - lombok
+- Redis
 - 其他略
 
 ## 注意
 - 框架出处 https://github.com/lihengming/spring-boot-api-project-seed
 由于框架2018年之后就没有更新过，部分使用的框架版本已经不用，顾在以后的版本基础上更新了pom.xml，将项目的文件结构做了调整，引入了部分可以提升开发效率的类库
 修改了代码生成脚本生成适合现在项目结构的脚本。
+
+## 更新
+### 2020年9月24日
+- 增加Redis缓存
+- 增加多线程封装 
