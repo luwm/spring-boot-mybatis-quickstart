@@ -40,6 +40,7 @@ Spring Boot API Project Seed 是一个基于Spring Boot & MyBatis的种子项目
 - modelmapper
 - lombok
 - Redis
+- resilience4j
 - 其他略
 
 ## 注意
@@ -51,3 +52,4 @@ Spring Boot API Project Seed 是一个基于Spring Boot & MyBatis的种子项目
 ### 2020年9月24日
 - 增加Redis缓存
 - 增加多线程封装 
+- 增加流控组件resilience4j
